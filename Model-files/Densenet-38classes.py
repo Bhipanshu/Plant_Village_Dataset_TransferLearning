@@ -177,7 +177,7 @@ preprocess = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
 
-image_path = '/home/dgxfac14/Work/plantvillage dataset/color/Grape___healthy/0ca59865-f0d2-4863-b4d1-a6690de53a5a___Mt.N.V_HL 6025.JPG'  # Replace with the path to your image
+image_path = ''  # Replace with the path to your image
 image = Image.open(image_path).convert('RGB')
 
 input_tensor = preprocess(image)
