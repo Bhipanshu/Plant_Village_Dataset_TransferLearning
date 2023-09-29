@@ -11,3 +11,6 @@ Models on which Transfer Learning was performed-
 3. VGG16
 4. Resnet50
 5. Densenet
+
+
+Saved models (.pth format) are also shared in the TrainedModel folder so as to be used for single image prediction.
