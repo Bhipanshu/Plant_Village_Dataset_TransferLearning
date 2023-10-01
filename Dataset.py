@@ -19,7 +19,7 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
-data_dir = '/home/dgxfac14/Work/plantvillage dataset/color'
+data_dir = 'data_dir'
 
 dataset = ImageFolder(data_dir, transform=transform)
 
