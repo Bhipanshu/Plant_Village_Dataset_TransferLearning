@@ -17,7 +17,7 @@ from torchvision import models, transforms, datasets
 
 
 
-device = torch.device("cuda:2") 
+device = torch.device("cuda") 
 print(device)
 
 #Data Preprocessing

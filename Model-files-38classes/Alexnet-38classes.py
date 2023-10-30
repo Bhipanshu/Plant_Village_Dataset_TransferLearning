@@ -9,12 +9,10 @@ import torchvision.models as models
 from torchvision.datasets import ImageFolder
 import torch.nn.functional as F
 from torch.utils.data import DataLoader,random_split
-
 from PIL import Image
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+
+device = torch.device("cuda") 
 print(device)
-
-
 
 #Data Preprocessing
 transform = transforms.Compose([
